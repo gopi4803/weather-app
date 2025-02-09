@@ -38,7 +38,7 @@ function App() {
     if(data?.cod==="404"){
       console.log(data);
       setWeather(null);
-      setIsDataExists(true);
+      setIsDataExists(false);
       setIsDataCorrect(false);
       setLoading(false);
       toast.error("City not found");

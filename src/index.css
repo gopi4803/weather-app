@@ -1,1 +1,19 @@
 @import "tailwindcss";
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .text {
+    animation: 1s ease-out 0s 1 slideInLeft;
+  }
+  .radius {
+    border-radius: 15px;
+  }
+  .radius1 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
